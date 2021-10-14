@@ -1,0 +1,23 @@
+{
+	"manifest_version":	2,
+	
+	"name":"Simple Scrollbar",
+	"version":"0.2",
+	"description":"A Simple Scrollbar created because I disliked the default scrollbar in use by some websites.",
+	
+	"icons":
+	{
+		"32": "icon32.png",
+		"64": "icon64.png",
+		"128": "icon128.png",
+		"256": "icon256.png",
+		"512": "icon512.png"
+	},
+	
+	"content_scripts":
+	[{
+		"matches":["http://*/*"],
+		"matches":["https://*/*"],
+		"css":["simplescrollbar.css"]
+	}]
+}
