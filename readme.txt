@@ -1,0 +1,1 @@
+Link to the Extension: https://microsoftedge.microsoft.com/addons/detail/simple-scrollbar/meeoehgcgpflondkfccodobmapcjmkjh
